@@ -37,7 +37,7 @@ class DoctorSeeder extends Seeder
 {
     public function run()
     {
-        factory(App\Models\Doctor::class, 50)->create(); // Adjust the number as needed
+        Doctor::factory(10)->create(); // Adjust the number as needed
     }
 }
 ############################
